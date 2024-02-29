@@ -1,0 +1,116 @@
+/* Estilos específicos para pantallas pequeñas */
+
+@media (max-width: 576px) {
+    .col-md-6 {
+        width: 100%;
+        float: none;
+    }
+
+    .speech {
+        width: 20px;
+    }
+    
+}
+@media (max-width: 785px) {
+    .banner {
+        height: unset!important;
+    }
+}
+
+
+header {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 21%, rgba(217, 255, 105, 1) 91%);
+}
+
+.div-chulo {
+    font-size: 50px;
+    padding-left: 700px;
+}
+
+main.fondo-de-pantalla {
+    background-image: url(./img/supermarket.jpg);
+    padding:  0px;
+    background-size: cover;
+    background-position: top center;
+
+}
+
+
+
+.formulario {
+    background-color: #d3d3d3b5;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+main p {
+    padding-left: 0px;
+}
+
+.speech {
+    font-size: 20px;
+
+}
+
+.card.caja {
+    border-radius: 25px;
+    box-shadow: 4px 6px 12px 0px grey;
+    z-index: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Precio {
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.caja img {
+    z-index: 0;
+}
+
+button.btn.botoncompra {
+    border: 3px;
+    border-color: lightseagreen;
+    border-style: solid;
+    border-radius: 23px;
+
+}
+
+button.btn.botoncompra:hover {
+    background-color: lightseagreen;
+    color: white;
+    transition: 300ms;
+
+}
+
+.card.caja:hover {
+    box-shadow: 4px 6px 12px 0px lightseagreen;
+    transition: 300ms;
+
+}
+
+.fondofooter {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 21%, rgba(217, 255, 105, 1) 91%);
+    padding: 80px;
+}
+
+.card-body:hover h3 {
+    color: lightseagreen;
+    font-size: 35px;
+
+
+}
+
+.banner {
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+}
